@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<form action="submit.html" method="" enctype="" target="">
+    <fieldset>
+        <legend><b>personal info</b></legend>
+        <label for="">Username:</label>
+        <input type="text" required><br><br>
+
+        <label for="">Password:</label>
+        <input type="password" id="pass"><br><br>
+
+        <label for="">Age:</label>
+        <input type="number"><br><br>
+
+        <label for="">Email</label>
+        <input type="email"><br><br>
+
+        <label for="">DOB:</label>
+        <input type="date" min=""2025-01-01>
+        <input type="date" max=""2026-11-03>
+
+    </fieldset>
+
+        <br><br>
+
+        <input type="time"><br>
+        <input type="color"><br>
+        <input type="range"><br>
+        <input type="file"><br>
+
+    <!-- Radio buttons -->
+     <label for="">Gender:</label><br>
+
+     <input type="radio" name="gender" value="male">
+     <label for="">Male</label><br>
+
+     
+     <input type="radio" name="gender" value="female">
+     <label for="">Female</label><br>
+
+     
+     <input type="radio" name="gender" value="others">
+     <label for="">Others</label>
+
+     <br><br>
+
+     <input type="checkbox">
+     <label for="">I accept all the terms and conditions</label>
+
+     <br><br>
+
+    <!-- Dropdown list -->
+       <!-- sugg ethelum select akn -->
+     <label for="">Select state:</label>
+     <select>
+        <option value="kerala">Kerala</option>
+        <option value="karnataka">Karnataka</option>
+        <option value="tamilnadu">Tamilnadu</option>
+        <option value="" disabled selected>--select--</option>  
+             <!-- disabled - select akanda ennanel disabled kodukam ,selected - first varum evde koduthhalum. value="" -(form submission tymil backendilek pass cheyth kodukan oone values) -->
+     </select>
+
+       <br><br>
+
+    <!-- list cheyth (sugg)kanikem cheyum input cheyan kazhiyum -->
+       <label for="">Skills:</label>
+       <input type="text" list="skills">
+
+       <datalist id="skills">
+           <option value="python"></option>
+           <option value="java"></option>
+           <option value="php"></option>
+       </datalist>
+
+          <br><br>
+        <!-- page opn ayi varumbol box valthayit kanan -->
+        <label for="">Address:</label>
+        <textarea col="50" rows="10"></textarea> 
+           <!-- col,row - char num -->
+
+        <br><br>
+
+
+
+     <button type="submit">Save</button>
+     <!-- <input type="button" value="click">
+     <input type="submit" value="Register">
+     <input type="reset"> -->
+
+     <hr>
+
+    </form>
+
+<!--     
+    
+    iframe 
+    ------
+    1)link webpagin ullil thanne iframinte ullil thanne open akum - ethelum site link pass cheyyan - <a href="" target="ivde kodukunna name = iframeile name="">
+    2)utub link kodukan--vedioshare--embeded--copy and paste in  the iframe src. iframe width="" height="" src="link paste". 
+    -->
+  
+
+     <iframe src="https://en.wikipedia.org/wiki/HTML" frameborder="5px" name="html" width="400px" height="250px"></iframe>
+     <a href="" target="html">HTML</a><br>
+
+     <hr>
+
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/0r7LCaFYdO4?si=e4oIGT4lVOYHGAgH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    
+
+        
+    
+</body>
+</html>

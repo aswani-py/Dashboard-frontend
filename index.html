@@ -1,0 +1,239 @@
+<html>
+    <head>
+        <title>MY WEBPAGE</title>
+        <!-- heading - page responsive akan - ella device nte widthilum ath work cheynm(eg:mob an flipkart opn akne engil aa device nte widthil crt align cheyh tharunu),extra informations kodukan. -->
+        <!-- link tag(external css file okke link cheyth kodukndeth) -->
+    </head>
+    <body>       
+        <!-- h1-h6 -->
+        <!-- block elements - h1-h6,p,div,list -->
+        <!-- inline elements -  <b>, <i>, <a> -->
+        
+         <h1>Heading 1</h1>
+         <h2>Heading 2</h2>
+         <h6>Heading 6</h6>
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, reprehenderit? Expedita, iste magnam quo similique necessitatibus nemo nihil molestias deserunt eaque quas corporis at, odit dolorum, quibusdam porro eveniet dicta!</p>
+        <b>bold</b>
+        <br>
+        <i>italic</i><br>
+
+        <a href="https://www.flipkart.com/" target="_blank">Flipkart</a>
+        <br>
+        <!-- target=_blank - flipkart  puthye tab opn ayi varan -->
+
+        <img src="image.jpg" alt="No image" width="300px" height="">
+
+        <hr>  
+        
+        <img src="image.jpg" alt="No image" width="100%" height="300px">
+
+       <del>deleted</del>
+
+       <u>underline</u>
+
+       <!--
+        HTML Lists
+        ===========
+       Unordered list
+       --------------
+       types ->disc,circle,square
+
+       ordered list
+       ------------
+       tupes ->1,A,a,I,i
+       start -> Numerical values only
+        -->
+
+        <ul>
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+        </ul>
+
+        <ul type="circle">
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+        </ul>
+
+         <ul type="square">
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+        </ul>
+
+
+
+        <ol>
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+        </ol>
+       
+        <ol type="A">
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+        </ol>
+       
+        <ol type="a">
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+        </ol>
+       
+        <ol type="i">
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+        </ol>
+                 
+        <ol type="I">
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+        </ol>
+         
+        <ol type="A" start="4">
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+        </ol>
+
+
+    <!-- Definition list -->
+     <dl>
+        <dt>HTML</dt>
+        <dd>
+            <ol>
+                <li>Hyper Text Markup Language</li>
+                <li>Hyper Text Markup Language</li>
+                <li>Hyper Text Markup Language</li>
+            </ol>
+        </dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheet</dd>
+     </dl>
+
+
+    <!-- HTML Table -->
+     <!-- EXAMPL 1 -->
+     <table border="5px" cellpadding="10px" cellspacing="0px" bgcolor="cyan">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Place</th>
+                <th>Age</th>
+            </tr>
+     </thead>
+     <tbody>
+        <tr>
+            <td>1</td>
+            <td>ABC</td>
+            <td>Calicut</td>
+            <td>23</td>
+        </tr>
+     </tbody>
+     <tfoot></tfoot>
+    </table>
+
+<!-- EXAMPLE 2 -->
+ <hr>
+<table border="6px" cellpadding="10px" cellspacing="0px" bgcolor="pink">
+    <tr>
+        <th>ID</th> 
+        <td>1</td>
+        <td>2</td>  
+        <td>3</td>  
+    </tr>
+
+    <tr>
+        <th>Name</th>
+        <td>ABC</td>
+        <td>XYZ</td>
+        <td>MNO</td>
+    </tr>
+
+    <tr>
+        <th>Place</th>
+        <td>Calicut</td>
+        <td>Kochi</td>
+        <td>Kannur</td>
+    </tr>
+
+</table>
+
+<!-- rowspan,colspan -->
+ <!-- exampl1 -->
+ <hr>
+
+<table border="3px" cellpadding="5px" cellspacing="0">
+    <caption>STUDENTS MARKS</caption>
+    <tr>
+        <th rowspan="2">Student</th>
+        <th colspan="2">Mark</th>
+    </tr>
+    <tr>
+    <th>Sub1</th>
+    <th>Sub2</th>
+    </tr>
+    <tr>
+        <td>A</td>
+        <td>34</td>
+        <td>56</td>
+    </tr>
+    <tr>
+        <td>B</td>
+        <td>34</td>
+        <td>56</td>
+    </tr>
+    <tr>
+        <th>Total</th>
+        <td>456</td>
+        <td>567</td>
+    </tr>
+</table>
+
+<!-- example 2 -->
+ <hr>
+ <table border="5px" cellpadding="10px" cellspacing="0">
+    <tr>
+        <th>Device</th>
+        <th>Brand</th>
+        <th colspan="2">Specifications</th>
+    </tr>
+    <tr>
+        <td rowspan="3">Smartphone</td>
+        <td rowspan="3">Apple</td>
+        <td>Models</td>
+        <td>Storage</td>
+    </tr>
+    <tr>
+        <td>iphone 12 Pro</td>
+        <td>256GB</td>
+    </tr>
+    <tr>
+        <td>iphone SE</td>
+        <td>128GB</td>
+    </tr>
+    <tr>
+        <td>Laptop</td>
+        <td>HP</td>
+        <td colspan="2">15.6" Display</td>
+    </tr>
+    <tr>
+        <td>Tablet</td>
+        <td>Samsung</td>
+        <td colspan="2">10.5'' Display</td>
+    </tr>
+ </table>
+
+
+ 
+
+
+</body>
+
+</html>
