@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <!-- header -->
+
+     <div class="d-flex justify-content-between align-items-center m-3 p-3">
+        <h2>My Learning Dashboard
+            <span class="text-secondary small d-block" style="font-size: 15px;">Semester 3 Web Development</span>
+        </h2>
+        
+        <button class="btn btn-primary">+Add Course</button>
+     </div>
+
+     <!-- alert -->
+      <div class="alert alert-warning m-4">
+        <b>Heads up!</b>Assignment 4(Bootsrap Forms)is due this Friday.Don't leave it for the last day.
+
+      </div>
+
+    <!-- grid -->
+
+    <div class="row m-3 g-4 text-center">
+        <div class="col-4">
+            <div class="card py-3">
+                <h2 class="text-primary">6</h2>
+            <span class="text-muted">Courses enrolled</span>
+            </div>
+        </div>
+
+        <div class="col-4">
+            <div class="card py-3">
+                <h2 class="text-success">18</h2>
+            <span class="text-muted">Assignments completed</span>
+            </div>
+        </div>
+
+        <div class="col-4">
+            <div class="card py-3">
+                <h2 class="text-danger">3</h2>
+            <span class="text-muted">Pending tasks</span>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <!-- course progress -->
+     <div class="row m-3 g-4">
+        <div class="col-8">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between">
+                    <h5>Course Progress</h5>
+                    <span class="badge bg-primary py-2 rounded-pill">This Month</span>
+                </div>
+                <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                        <span> HTML & CSS</span>
+                        <span>100%</span>
+                    </div>
+                    <div class="progress">
+                         <div class="progress-bar bg-success" style="width: 100%">100%</div>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <span> Javascript Basics</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="progress">
+                         <div class="progress-bar bg-primary" style="width: 75%">75%</div> 
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <span> Bootstrap</span>
+                        <span>55%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-info" style="width: 55%">55%</div> 
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <span> PHP & MYSQL</span>
+                        <span>30%</span>
+                    </div>
+                    <div class="progress">
+                         <div class="progress-bar bg-warning" style="width: 30%">30%</div> 
+                     </div>
+                     <div class="d-flex justify-content-between">
+                        <span> React intro</span>
+                        <span>10%</span>
+                    </div>
+                    <div class="progress">
+                     <div class="progress-bar bg-danger" style="width: 10%">10%</div> 
+                    </div>
+            </div>
+        </div>
+     </div>
+     
+
+
+     <!-- Quick links -->
+        <div class="col-4">
+            <div class="card">
+                <div class="card-header">
+                    <h5>Quick Links</h5>
+                </div>
+                <div class="card-body">
+                    <div class="list-group">
+                        <li class="list-group-item active">Dashboard</li>
+                        <li class="list-group-item d-flex justify-content-between">Assignments
+                            <span class="badge bg-danger rounded-pill">3</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between">Messages
+                            <span class="badge bg-primary rounded-pill">12</span>
+                        </li>
+                         <li class="list-group-item">Certificates</li>
+                         <li class="list-group-item disabled" style="background-color: rgb(231, 229, 229);" >Live class (locked)</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+        
+<!-- upcoming task -->
+
+<div class="row m-3 g-4">
+    <div class="col-4">
+        <div class="card">
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <h6>Upcoming Tasks</h6>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">Bootstrap Forms
+                    <span class="badge bg-danger rounded-pill">Due fri</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">JS Quiz 3
+                    <span class="badge bg-warning rounded-pill">mon</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">Portfolio Page
+                    <span class="badge bg-info rounded-pill">Next Wk</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">Git Practice
+                    <span class="badge bg-success rounded-pill">Done</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- -----class leaderboard------ -->
+    <div class="col-8">
+        <ul class="list-group">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span class="fw-bold">Class Leaderboard</span>
+                <small class="text-muted">Top 4 this week</small>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <div class="row">
+                    <div class="col-3">
+                        <span class="badge rounded-circle p-3" style="background-color: rgb(106, 67, 161);">AN</span>
+                    </div>
+                    <div class="col">                    
+                        <span>Anjana N.
+                            <small class="d-block text-muted">Completed 9 tasks</small>
+                        </span>
+                    </div>
+                </div>
+                <div>
+                    <span class="badge bg-success rounded-pill">98%</span>
+                </div>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <div class="row">
+                    <div class="col-3">
+                        <span class="badge rounded-circle p-3" style="background-color: rgb(172, 92, 63);">RS</span>
+                    </div>
+                    <div class="col">
+                        <span>Rahul S.
+                            <small class="d-block text-muted">Completed 8 tasks</small>
+                        </span>
+                    </div>
+                </div>
+                <div>
+                    <span class="badge bg-success rounded-pill">92%</span>
+                </div>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <div class="row">
+                    <div class="col-3">
+                        <span class="badge rounded-circle p-3" style="background-color: rgb(50, 193, 144);">FM</span>
+                    </div>
+                    <div class="col">
+                        <span>Fathima M.
+                            <small class="d-block text-muted">Completed 7 tasks</small>
+                        </span>
+                    </div>
+                </div>
+                <div>
+                    <span class="badge bg-warning rounded-pill text-dark">85%</span>
+                </div>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <div class="row">
+                    <div class="col-3">
+                        <span class="badge rounded-circle p-3" style="background-color: rgb(241, 73, 179);">Jk</span>
+                    </div>
+                    <div class="col">
+                        <span>Joel K.
+                            <small class="d-block text-muted">Completed 5 tasks</small>
+                        </span>
+                    </div>
+                </div>
+                <div>
+                    <span class="badge bg-warning rounded-pill text-dark">71%</span>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
+        
+
